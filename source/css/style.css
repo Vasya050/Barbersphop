@@ -3,14 +3,14 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/PTSansNarrow-Regular.ttf");
+  src: url("../fonts/PTSans-Narrow.woff2") format("woff2");
 }
 @font-face {
   font-family: "PT Sans Narrow";
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/PTSansNarrow-Bold.ttf");
+  src: url("../fonts/PTSans-NarrowBold.woff2") format("woff2");
 }
 img {
   max-width: 100%;
