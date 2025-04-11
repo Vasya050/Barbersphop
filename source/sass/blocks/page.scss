@@ -5,7 +5,14 @@
   line-height: 27px;
 }
 
-.page__body {
+.page__index {
+  min-height: 100%;
+  margin: 0;
+  background-color: $lightgrey;
+  // color: $lightgrey;
+}
+
+.page__photo {
   min-height: 100%;
   margin: 0;
   background-color: $lightgrey;

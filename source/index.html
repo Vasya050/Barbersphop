@@ -8,11 +8,15 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Барбершоп «Бородинский»</title>
 </head>
-<body class="page__body">
+<body class="page__index">
 
   <header class="page-header">
     <a class="page-header__logo">
-      <img src="img/logotype mobile.svg" height="30" width="226" alt="Барбершоп Бородинский">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="./img/icons/logotype-desktop.svg">
+        <source media="(min-width: 768px)" srcset="./img/icons/logotype-tablet.svg">
+        <img src="./img/icons/logotype-mobile.svg" height="30" width="226" alt="Барбершоп Бородинский">
+      </picture>
     </a>
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button">
@@ -20,13 +24,13 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item--active">
             <a>
               Главная
             </a>
           </li>
-          <li class="site-list__item site-list__item--active">
-            <a href="#">
+          <li class="site-list__item">
+            <a href="./photo.html">
               Наши работы
             </a>
           </li>
@@ -193,7 +197,7 @@
         <a class="reviews__write button" href="form.html">Оставить свойы</a>
         <div class="reviews__list slider__list">
           <blockquote class="reviews__item slider__item">
-            <img class="reviews__item-image" src="img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Трэвиса Баркера">
+            <img class="reviews__item-image" src="./img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Трэвиса Баркера">
             <div class="reviews__autor-info">
               <cite class="reviews__author-name">
                 Трэвис Баркер
@@ -204,7 +208,7 @@
             </div>
           </blockquote>
           <blockquote class="reviews__item slider__item">
-            <img class="reviews__item-image" src="img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Джона Смита">
+            <img class="reviews__item-image" src="./img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Джона Смита">
             <div class="reviews__autor-info">
               <cite class="reviews__author-name">
                 Джон Смит
@@ -215,7 +219,7 @@
             </div>
           </blockquote>
           <blockquote class="reviews__item slider__item">
-            <img class="reviews__item-image" src="img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Ивана Бородайло">
+            <img class="reviews__item-image" src="./img/content/pictures-travis-mobile@1x.jpg" width="50" height="50" alt="Фото Ивана Бородайло">
             <div class="reviews__autor-info">
               <cite class="reviews__author-name">
                 Иван Бородайло
